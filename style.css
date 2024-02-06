@@ -9,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: linear-gradient(to right, black,black,rgb(43, 42, 42));
 }
 #logo{
     height: 30px;
@@ -46,6 +47,21 @@ body{
     color: white;
     font-family: 'Trebuchet MS  ';
 }
+#tdhome2:hover{
+    background-color: orange;
+}
+#tdhome2{
+    border:2px solid gray;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS  ';
+}
+#tdanch{
+    text-decoration: none;
+    color: azure;
+    font-family: 'Trebuchet MS';
+}
 #prodcontent{
     width: 200px;
     height: auto;
@@ -73,4 +89,153 @@ padding: 5%;
 }
 section{
     box-shadow: 5px 5px 5px rgba(111, 46, 0, 0.5);
+    background: linear-gradient(to right,lightgrey,white);
+}
+#team{
+    width: 800px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sectionproducts{
+    border: 2px solid gray;
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    align-items: center;
+}
+#h1products{
+    padding-left: 2%;
+    font-family: 'Trebuchet MS';
+}
+#mitsusu{
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jdm{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+#lancerseries{
+    font-family: 'Trebuchet MS';
+}
+#tabellancer{
+    border-collapse: collapse;
+    overflow: hidden;
+    text-align: center;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tdlancer{
+    border:2px solid gray;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+#lancers{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+button{
+    border: 2px solid gray;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS';
+    padding: 8px;
+    margin-left: 5%;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: orange;
+  }
+#strikeprice{
+    font-family: 'Trebuchet MS';
+    border:2px solid gray;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS';
+    padding: 8px;
+}
+#price{
+    margin-left: 4%;
+    font-family: 'Trebuchet MS';
+    border:2px solid gray;
+    background-color: rgb(214, 139, 0);
+    color: rgb(33, 17, 0);
+    font-family: 'Trebuchet MS';
+    padding: 8px;
+}
+#hrbreaker{
+    height: 4px;
+    background-color: orange;
+}
+#bmw{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ferrari{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ford{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#german{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+#american{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+#italian{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+#foot{
+    text-align: center;
+    background-color: black;
+    padding: 2%;
+    border-top: 2px solid gray;
+}
+#afoot{
+    color: rgb(255, 255, 255);
+}
+#afoot:hover{
+    color: orange;
 }
