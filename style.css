@@ -40,6 +40,9 @@ body{
     overflow: hidden;
     display: flex;
 }
+#content:hover{
+    color: orange;
+}
 #tdhome{
     border:2px solid gray;
     padding: 8px;
@@ -238,4 +241,15 @@ button:hover {
 }
 #afoot:hover{
     color: orange;
+}
+#sectionpromo{
+    border: 2px solid gray;
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    align-items: center;
+}
+#h1promo{
+    padding-left: 2%;
+    font-family: 'Trebuchet MS';
 }
