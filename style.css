@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(to right,white,darkgray);
+    margin: 0%;
+}
+#homeheader{
+    background-color: black;
+    border-bottom: solid orange;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    height: 30px;
+}
+#content{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+#h1home{
+    padding-left: 2%;
+    font-family: 'Trebuchet MS';
+}
+#h4home{
+    padding-left: 2%;
+    font-family: 'Trebuchet MS';
+}
+#sectionhome{
+    border: 2px solid gray;
+    margin: 2%;
+    background-color: white;
+}
+#tablehome{
+    text-align: center;
+    border-collapse: collapse;
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+}
+#tdhome{
+    border:2px solid gray;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS  ';
+}
+#prodcontent{
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+#h1home2{
+    padding-left: 2%;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+#sectionabout{
+    border: 2px solid gray;
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+}
+#h1about{
+    padding-left: 2%;
+    font-family: 'Trebuchet MS';
+}
+#labelabout{
+padding: 5%;
+}
+section{
+    box-shadow: 5px 5px 5px rgba(111, 46, 0, 0.5);
+}
