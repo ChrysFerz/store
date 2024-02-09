@@ -256,3 +256,44 @@ button:hover {
 #labelpromos{
     padding: 5%;
 }
+#promotable{
+    border-collapse: collapse;
+    overflow: hidden;
+    text-align: center;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#promotd{
+    border:2px solid gray;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+#imgpromo{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+#sectioncontact{
+    border: 2px solid gray;
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    align-items: center;
+}
+#h1contact{
+    font-family: 'Trebuchet MS';
+}
+#acontact{
+    text-decoration: none;
+    margin: 5px;
+    color: orange;
+}
+#footah{
+   text-align: center;
+}
